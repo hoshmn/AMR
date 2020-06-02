@@ -14,7 +14,8 @@
     <h1>AMR CQI</h1>
     
     <form class="accordion" id="accordionExample">
-      <div class="card">
+
+      <div id="q-lc1_1" class="card">
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
             <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -25,7 +26,7 @@
     
         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
           <div class="card-body">
-            <div id="q-lc1_1" class="question">
+            <div id="q-lc1_1_a" class="question">
 
               <label class="form-check-label question-text">Does the clinical facility have an oversight committee?
                 <!-- that revises treatment guidelines and medicines formulary and/or stewardship practices based on cumulative AST antibiograms, pharmacy antibiotic usage data and the outcomes from stewardship ward rounds? -->
@@ -33,35 +34,35 @@
 
               <div class="responses">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input conditional-show" type="radio" name="oversight-committee" id="q-lc1_1-yes" value="q-lc1_1-yes">
-                  <label class="form-check-label" for="q-lc1_1-yes">Yes</label>
+                  <input class="form-check-input conditional-show" type="radio" name="oversight-committee" id="q-lc1_1_a-yes" value="q-lc1_1_a-yes">
+                  <label class="form-check-label" for="q-lc1_1_a-yes">Yes</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input conditional-hide" type="radio" name="oversight-committee" id="q-lc1_1-no" value="q-lc1_1-no">
-                  <label class="form-check-label" for="q-lc1_1-no">No</label>
+                  <input class="form-check-input conditional-hide" type="radio" name="oversight-committee" id="q-lc1_1_a-no" value="q-lc1_1_a-no">
+                  <label class="form-check-label" for="q-lc1_1_a-no">No</label>
                 </div>
               </div>
 
               <div class="conditional sub-questions">
-                <div id="q-lc1_1_1" class="question">
+                <div id="q-lc1_1_a_" class="question">
 
                   <label class="form-check-label question-text">Does the committee:</label>
                   <div class="responses">
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="oversight-committee-a" id="q-lc1_1_1a-box" value="q-lc1_1_1a-box">
-                      <label class="form-check-label" for="q-lc1_1_1a-box">Develop/revise treatment guidelines?</label>
+                      <input class="form-check-input" type="checkbox" name="oversight-committee-a" id="q-lc1_1_aa-box" value="q-lc1_1_aa-box">
+                      <label class="form-check-label" for="q-lc1_1_aa-box">Develop/revise treatment guidelines?</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="oversight-committee-b" id="q-lc1_1_1b-box" value="q-lc1_1_1b-box">
-                      <label class="form-check-label" for="q-lc1_1_1b-box">Use cumulative AST data to inform guidelines?</label>
+                      <input class="form-check-input" type="checkbox" name="oversight-committee-b" id="q-lc1_1_ab-box" value="q-lc1_1_ab-box">
+                      <label class="form-check-label" for="q-lc1_1_ab-box">Use cumulative AST data to inform guidelines?</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="oversight-committee-c" id="q-lc1_1_1c-box" value="q-lc1_1_1c-box">
-                      <label class="form-check-label" for="q-lc1_1_1c-box">Review antibiotic consumption data?</label>
+                      <input class="form-check-input" type="checkbox" name="oversight-committee-c" id="q-lc1_1_ac-box" value="q-lc1_1_ac-box">
+                      <label class="form-check-label" for="q-lc1_1_ac-box">Review antibiotic consumption data?</label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="oversight-committee-d" id="q-lc1_1_1d-box" value="q-lc1_1_1d-box">
-                      <label class="form-check-label" for="q-lc1_1_1d-box">Review data from AMS rounds?</label>
+                      <input class="form-check-input" type="checkbox" name="oversight-committee-d" id="q-lc1_1_ad-box" value="q-lc1_1_ad-box">
+                      <label class="form-check-label" for="q-lc1_1_ad-box">Review data from AMS rounds?</label>
                     </div>
                   </div>
                 </div>
@@ -71,7 +72,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div id="q-lc1_2" class="card">
         <div class="card-header" id="headingTwo">
           <h2 class="mb-0">
             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -83,7 +84,7 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
           <div class="card-body">
             
-            <div id="q-lc1_2" class="question">
+            <div id="q-lc1_2_a" class="question">
               
               <label class="form-check-label question-text">
                 Does the clinical facility have a “Laboratory Handbook” which describes specimen collection, storage, and transportation of samples?
@@ -91,94 +92,124 @@
               
               <div class="responses">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input conditional-show" type="radio" name="lab-handbook" id="q-lc1_2-yes" value="q-lc1_2-yes">
-                  <label class="form-check-label" for="q-lc1_2-yes">Yes</label>
+                  <input class="form-check-input conditional-show" type="radio" name="lab-handbook" id="q-lc1_2_a-yes" value="q-lc1_2_a-yes">
+                  <label class="form-check-label" for="q-lc1_2_a-yes">Yes</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input conditional-hide" type="radio" name="lab-handbook" id="q-lc1_2-no" value="q-lc1_2-no">
-                  <label class="form-check-label" for="q-lc1_2-no">No</label>
+                  <input class="form-check-input conditional-hide" type="radio" name="lab-handbook" id="q-lc1_2_a-no" value="q-lc1_2_a-no">
+                  <label class="form-check-label" for="q-lc1_2_a-no">No</label>
                 </div>
               </div>
               
               <div class="conditional sub-questions">
-                <div id="q-lc1_2_1" class="question">
+                <div id="q-lc1_2_a_" class="question">
                   
                   <label class="form-check-label question-text">Does the handbook state:</label>
                   <div class="responses">
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-a" id="q-lc1_2_1a-box" value="q-lc1_2_1a-box">
-                      <span class="specimen-tags"><i class="b"></i><i class="f"></i><i class="u"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1a-box">Consent should be obtained before collection of faeces, urine or blood for culture</label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-a" id="q-lc1_2_aa-box" value="q-lc1_2_aa-box">
+                      <label class="form-check-label" for="q-lc1_2_aa-box">
+                        <span class="specimen-tags"><i class="b"></i><i class="f"></i><i class="u"></i></span>
+                        Consent should be obtained before collection of faeces, urine or blood for culture
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-b" id="q-lc1_2_1b-box" value="q-lc1_2_1b-box">
-                      <span class="specimen-tags"><i class="b"></i><i class="f"></i><i class="u"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1b-box">Samples should be collected using recommended precautions/aseptic technique as applicable </label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-b" id="q-lc1_2_ab-box" value="q-lc1_2_ab-box">
+                      <label class="form-check-label" for="q-lc1_2_ab-box">
+                        <span class="specimen-tags"><i class="b"></i><i class="f"></i><i class="u"></i></span>
+                        Samples should be collected using recommended precautions/aseptic technique as applicable 
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-c" id="q-lc1_2_1c-box" value="q-lc1_2_1c-box">
-                      <span class="specimen-tags"><i class="f"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1c-box">Minimum of 1g of faeces should be collected for faeces culture</label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-c" id="q-lc1_2_ac-box" value="q-lc1_2_ac-box">
+                      <label class="form-check-label" for="q-lc1_2_ac-box">
+                        <span class="specimen-tags"><i class="f"></i></span>
+                        Minimum of 1g of faeces should be collected for faeces culture
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_1e-box" value="q-lc1_2_1e-box">
-                      <span class="specimen-tags"><i class="b"></i><i class="u"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1e-box">Urine and blood should be collected before administration of antibiotics </label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_ae-box" value="q-lc1_2_ae-box">
+                      <label class="form-check-label" for="q-lc1_2_ae-box">
+                        <span class="specimen-tags"><i class="b"></i><i class="u"></i></span>
+                        Urine and blood should be collected before administration of antibiotics 
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_1f-box" value="q-lc1_2_1f-box">
-                      <span class="specimen-tags"><i class="u"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1f-box">A minimum of 3 mL urine should be collected for urine culture</label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_af-box" value="q-lc1_2_af-box">
+                      <label class="form-check-label" for="q-lc1_2_af-box">
+                        <span class="specimen-tags"><i class="u"></i></span>
+                        A minimum of 3 mL urine should be collected for urine culture
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_1g-box" value="q-lc1_2_1g-box">
-                      <span class="specimen-tags"><i class="b"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1g-box">Handwashing should be performed prior to performing blood collection for culture</label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_ag-box" value="q-lc1_2_ag-box">
+                      <label class="form-check-label" for="q-lc1_2_ag-box">
+                        <span class="specimen-tags"><i class="b"></i></span>
+                        Handwashing should be performed prior to performing blood collection for culture
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_1h-box" value="q-lc1_2_1h-box">
-                      <span class="specimen-tags"><i class="b"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1h-box">Hands should be disinfected prior to performing a blood culture</label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_ah-box" value="q-lc1_2_ah-box">
+                      <label class="form-check-label" for="q-lc1_2_ah-box">
+                        <span class="specimen-tags"><i class="b"></i></span>
+                        Hands should be disinfected prior to performing a blood culture
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_1i-box" value="q-lc1_2_1i-box">
-                      <span class="specimen-tags"><i class="b"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1i-box">Sterile gloves should be used when performing a blood culture </label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_ai-box" value="q-lc1_2_ai-box">
+                      <label class="form-check-label" for="q-lc1_2_ai-box">
+                        <span class="specimen-tags"><i class="b"></i></span>
+                        Sterile gloves should be used when performing a blood culture 
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_1j-box" value="q-lc1_2_1j-box">
-                      <span class="specimen-tags"><i class="b"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1j-box">Blood cultures should be drawn from peripheral sites</label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_aj-box" value="q-lc1_2_aj-box">
+                      <label class="form-check-label" for="q-lc1_2_aj-box">
+                        <span class="specimen-tags"><i class="b"></i></span>
+                        Blood cultures should be drawn from peripheral sites
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_1k-box" value="q-lc1_2_1k-box">
-                      <span class="specimen-tags"><i class="b"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1k-box">Minimum of 2 and maximum of 3 Blood cultures should be drawn within 24 hours</label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_ak-box" value="q-lc1_2_ak-box">
+                      <label class="form-check-label" for="q-lc1_2_ak-box">
+                        <span class="specimen-tags"><i class="b"></i></span>
+                        Minimum of 2 and maximum of 3 Blood cultures should be drawn within 24 hours
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_1l-box" value="q-lc1_2_1l-box">
-                      <span class="specimen-tags"><i class="b"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1l-box">Serial blood cultures should be collected from separate venipuncture sites</label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_al-box" value="q-lc1_2_al-box">
+                      <label class="form-check-label" for="q-lc1_2_al-box">
+                        <span class="specimen-tags"><i class="b"></i></span>
+                        Serial blood cultures should be collected from separate venipuncture sites
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_1m-box" value="q-lc1_2_1m-box">
-                      <span class="specimen-tags"><i class="b"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1m-box">Puncture site should be cleaned properly as per manufacturer recommended technique and using appropriate disinfectant</label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_am-box" value="q-lc1_2_am-box">
+                      <label class="form-check-label" for="q-lc1_2_am-box">
+                        <span class="specimen-tags"><i class="b"></i></span>
+                        Puncture site should be cleaned properly as per manufacturer recommended technique and using appropriate disinfectant
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_1n-box" value="q-lc1_2_1n-box">
-                      <span class="specimen-tags"><i class="b"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1n-box">Bottle-top should be disinfected and disinfectant should be allowed to dry prior to inoculation</label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_an-box" value="q-lc1_2_an-box">
+                      <label class="form-check-label" for="q-lc1_2_an-box">
+                        <span class="specimen-tags"><i class="b"></i></span>
+                        Bottle-top should be disinfected and disinfectant should be allowed to dry prior to inoculation
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_1o-box" value="q-lc1_2_1o-box">
-                      <span class="specimen-tags"><i class="b"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1o-box">Needles should not be exchanged between blood culture collection and inoculation of blood culture bottles</label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_ao-box" value="q-lc1_2_ao-box">
+                      <label class="form-check-label" for="q-lc1_2_ao-box">
+                        <span class="specimen-tags"><i class="b"></i></span>
+                        Needles should not be exchanged between blood culture collection and inoculation of blood culture bottles
+                      </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_1p-box" value="q-lc1_2_1p-box">
-                      <span class="specimen-tags"><i class="b"></i></span>
-                      <label class="form-check-label" for="q-lc1_2_1p-box">The volume of blood collected should follow the manufacturer's recommendations: typically 10mL per bottle for adults, 1-3 mL per bottle for children</label>
+                      <input class="form-check-input" type="checkbox" name="lab-handbook-d" id="q-lc1_2_ap-box" value="q-lc1_2_ap-box">
+                      <label class="form-check-label" for="q-lc1_2_ap-box">
+                        <span class="specimen-tags"><i class="b"></i></span>
+                        The volume of blood collected should follow the manufacturer's recommendations: typically 10mL per bottle for adults, 1-3 mL per bot
+                        tle for children</label>
                     </div>
                   </div>
                 </div>
@@ -187,18 +218,89 @@
 
             <div id="q-lc1_2_b" class="question">
               
+              <!-- <span class="specimen-tags"><i class="b"></i><i class="f"></i><i class="u"></i></span> -->
               <label class="form-check-label question-text">
-                Are collection containers for faeces, urine & blood correctly labelled?
+                Are collection containers correctly labelled for:
+              </label>
+              
+              <div class="responses">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="collection-label-f" id="q-lc1_2_b-f" value="q-lc1_2_b-f">
+                  <label class="form-check-label" for="q-lc1_2_b-f">
+                    <span class="specimen-tags"><i class="f"></i></span>
+                    Faeces?
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="collection-label" id="q-lc1_2_b-b" value="q-lc1_2_b-b">
+                  <label class="form-check-label" for="q-lc1_2_b-b">
+                    <span class="specimen-tags"><i class="b"></i></span>
+                    Blood?
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="collection-label" id="q-lc1_2_b-u" value="q-lc1_2_b-u">
+                  <label class="form-check-label" for="q-lc1_2_b-u">
+                    <span class="specimen-tags"><i class="u"></i></span>
+                    Urine?
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div id="q-lc1_2X" class="question">
+              
+              <label class="form-check-label question-text">
+                <span class="specimen-tags"><i class="f"></i></span>
+                Do the facility treatment guidelines include requirement to do faecal culture if there is dysentery, suspicion of a public health threat / outbreak or if there are associated signs of systemic infection?
               </label>
               
               <div class="responses">
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="collection-label" id="q-lc1_2_b-yes" value="q-lc1_2_b-yes">
-                  <label class="form-check-label" for="q-lc1_2_b-yes">Yes</label>
+                  <input class="form-check-input" type="radio" name="faecal-guidelines" id="q-lc1_2X-yes" value="q-lc1_2X-yes">
+                  <label class="form-check-label" for="q-lc1_2X-yes">Yes</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="collection-label" id="q-lc1_2_b-no" value="q-lc1_2_b-no">
-                  <label class="form-check-label" for="q-lc1_2_b-no">No</label>
+                  <input class="form-check-input" type="radio" name="faecal-guidelines" id="q-lc1_2X-no" value="q-lc1_2X-no">
+                  <label class="form-check-label" for="q-lc1_2X-no">No</label>
+                </div>
+              </div>
+            </div>  
+
+            <div id="q-lc1_3" class="question">
+              
+              <label class="form-check-label question-text">
+                <span class="specimen-tags"><i class="u"></i></span>
+                Do the facility treatment  guidelines include requirement to do urine culture if there are clinical indications such as suspected urinary tract infection; systemic sepsis without a clear focus or asymptomatic bacteriuria in pregnancy?
+              </label>
+              
+              <div class="responses">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="urine-guidelines" id="q-lc1_3-yes" value="q-lc1_3-yes">
+                  <label class="form-check-label" for="q-lc1_3-yes">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="urine-guidelines" id="q-lc1_3-no" value="q-lc1_3-no">
+                  <label class="form-check-label" for="q-lc1_3-no">No</label>
+                </div>
+              </div>
+            </div>  
+
+            <div id="q-lc1_4" class="question">
+              
+              <label class="form-check-label question-text">
+                <span class="specimen-tags"><i class="b"></i></span>
+                Do the facility treatment guidelines include requirement to do blood culture with clinical suspicion of blood stream infection?
+              </label>
+              
+              <div class="responses">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="blood-guidelines" id="q-lc1_4-yes" value="q-lc1_4-yes">
+                  <label class="form-check-label" for="q-lc1_4-yes">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="blood-guidelines" id="q-lc1_4-no" value="q-lc1_4-no">
+                  <label class="form-check-label" for="q-lc1_4-no">No</label>
                 </div>
               </div>
             </div>  
@@ -207,18 +309,53 @@
         </div>
       </div>
 
-      <div class="card">
+      <div id="q-lc1_5" class="card">
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              LC1.3
+              LC1.5 - Laboratory Request Form
             </button>
           </h2>
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            <div id="q-lc1_5_a" class="question">
+
+              <label class="form-check-label question-text">
+                Does the laboratory request form include:
+              </label>
+
+                <div class="responses">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="lab-request-a" id="q-lc1_5_aa-box" value="q-lc1_5_aa-box">
+                    <label class="form-check-label" for="q-lc1_5_aa-box">Patient identifiers</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="lab-request-b" id="q-lc1_5_ab-box" value="q-lc1_5_ab-box">
+                    <label class="form-check-label" for="q-lc1_5_ab-box">Site name</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="lab-request-c" id="q-lc1_5_ac-box" value="q-lc1_5_ac-box">
+                    <label class="form-check-label" for="q-lc1_5_ac-box">Date of admission</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="lab-request-d" id="q-lc1_5_ad-box" value="q-lc1_5_ad-box">
+                    <label class="form-check-label" for="q-lc1_5_ad-box">Date & time of collection</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="lab-request-d" id="q-lc1_5_ae-box" value="q-lc1_5_ae-box">
+                    <label class="form-check-label" for="q-lc1_5_ae-box">Clinical information regarding suspected diagnosis</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="lab-request-d" id="q-lc1_5_af-box" value="q-lc1_5_af-box">
+                    <label class="form-check-label" for="q-lc1_5_af-box">Contact details of requesting doctor</label>
+                  </div>
+                </div>
+
+            </div>
           </div>
+
         </div>
       </div>
     </form>
@@ -273,7 +410,7 @@
         background: #FBD84B;
       }
       span.specimen-tags i.f {
-        background: #3D3229;
+        background: #8C6F56;
       }
     </style>
 
