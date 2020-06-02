@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>AMR CQI</title>
+  </head>
+  <body>
+    <h1>AMR CQI</h1>
+    
+    <form class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              LC1.1
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <div id="q-lc1_1" class="question">
+
+              <label class="form-check-label question-text">Does the clinical facility have an oversight committee?
+                <!-- that revises treatment guidelines and medicines formulary and/or stewardship practices based on cumulative AST antibiograms, pharmacy antibiotic usage data and the outcomes from stewardship ward rounds? -->
+              </label>
+
+              <div class="responses">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input conditional-show" type="radio" name="oversight-committee" id="q-lc1_1-yes" value="yes">
+                  <label class="form-check-label" for="q-lc1_1-yes">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input conditional-hide" type="radio" name="oversight-committee" id="q-lc1_1-no" value="no">
+                  <label class="form-check-label" for="q-lc1_1-no">No</label>
+                </div>
+              </div>
+
+              <div class="conditional sub-questions">
+                <div id="q-lc1_1_1" class="question">
+
+                  <label class="form-check-label question-text">Does the committee:</label>
+                  <div class="responses">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="oversight-committee-a" id="q-lc1_1_1a-box" value="treatment-guidelines">
+                      <label class="form-check-label" for="q-lc1_1_1a-box">Develop/revise treatment guidelines?</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="oversight-committee-b" id="q-lc1_1_1b-box" value="use-ast">
+                      <label class="form-check-label" for="q-lc1_1_1b-box">Use cumulative AST data to inform guidelines?</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="oversight-committee-c" id="q-lc1_1_1c-box" value="review-consumption">
+                      <label class="form-check-label" for="q-lc1_1_1c-box">Review antibiotic consumption data?</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="oversight-committee-d" id="q-lc1_1_1d-box" value="review-ams">
+                      <label class="form-check-label" for="q-lc1_1_1d-box">Review data from AMS rounds?</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              LC1.2
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              LC1.3
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <style>
+      .conditional {
+        display: none;
+      }
+      .question.show-conditional .conditional {
+        display: block;
+      }
+
+      .question {
+        padding-top: 40px;
+        padding-left: 40px;
+      }
+      .question-text {
+        font-size: 16px;
+      }
+      .responses {
+        font-weight: 200;
+        padding-top: 10px;
+        font-size: 14px;
+      }
+    </style>
+
+    <!-- Optional JavaScript -->
+    <script>
+      const csaQuestions = [
+
+      ]
+
+      const showers = document.querySelectorAll('.conditional-show');
+      showers.forEach(elem => {
+        elem.onchange = e => {
+          console.log(e.returnValue);
+          elem.closest('.question').classList.toggle('show-conditional', e.returnValue);
+        }
+      });
+      const hiders = document.querySelectorAll('.conditional-hide');
+      hiders.forEach(elem => {
+        elem.onchange = e => {
+          console.log(e.returnValue);
+          elem.closest('.question').classList.toggle('show-conditional', !e.returnValue);
+        }
+      });
+
+
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
