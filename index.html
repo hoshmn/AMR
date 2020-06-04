@@ -14,7 +14,10 @@
     <h1>AMR Continuous Quality Improvement Assessment</h1>
     <h2>Facility-Level Assessment</h2>
 
-    <p class="instructions">Please complete the following, from the "Technical Scorecard: Laboratory Clinical Interface AMR Scorecard", Section 1 in C. Clinical Site Assessment.</p>
+    <p class="instructions">
+      <span>Please complete the following, from the "Technical Scorecard: Laboratory Clinical Interface AMR Scorecard", Section 1 in C. Clinical Site Assessment.</span>
+      <span>The corresponding data sources are indicated in the section headers for reference. The relevant standards are indicated after each question in parentheses.</span>
+    </p>
     
     <form class="accordion" id="accordionExample">
 
@@ -22,7 +25,7 @@
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
             <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Oversight Committee
+              Oversight Committee [LC1.1]
             </button>
           </h2>
         </div>
@@ -82,7 +85,7 @@
         <div class="card-header" id="headingTwo">
           <h2 class="mb-0">
             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Laboratory Handbook
+              Laboratory Handbook [LC1.2 - 1.4]
             </button>
           </h2>
         </div>
@@ -382,7 +385,7 @@
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Laboratory Request Form
+              Laboratory Request Form [LC1.5]
             </button>
           </h2>
         </div>
@@ -433,9 +436,16 @@
     </form>
 
     <style>
-      h1, h2 {
+      h1 {
         padding: 30px;
         text-align: center;
+      }
+      h2, .instructions {
+        padding: 0 30px;
+      }
+      .instructions span {
+        padding-bottom: 10px;
+        display: block;
       }
 
       .conditional {
