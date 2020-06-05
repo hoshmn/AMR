@@ -444,7 +444,7 @@
       <h2>Facility-Level Assessment</h2>
       <h3>Recommendations & Resources</h3>
 
-      <h4 class="priority">Priority 1</h4>
+      <h4 class="priority"><span class="prio-1">Priority 1</span></h4>
       <div>
         <div class="missed-standard">
           <h5>Missed Standard:</h5>
@@ -465,7 +465,7 @@
         </div>
       </div>
 
-      <h4 class="priority">Priority 2</h4>
+      <h4 class="priority"><span class="prio-2">Priority 2</span></h4>
       <div>
         <div class="missed-standard">
           <h5>Missed Standard:</h5>
@@ -487,7 +487,7 @@
         </div>
       </div>
 
-      <h4 class="priority">Priority 3</h4>
+      <h4 class="priority"><span class="prio-3">Priority 3</span></h4>
       <div>
         <div class="missed-standard">
           <h5>Missed Standard:</h5>
@@ -600,7 +600,18 @@
       }
       #results .priority {
         text-align: center;
-        text-decoration: underline;
+      }
+      #results .priority span {
+        border-bottom: solid 5px; 
+      }
+      #results .priority span.prio-1 {
+        border-bottom-color: red; 
+      }
+      #results .priority span.prio-2 {
+        border-bottom-color: orange; 
+      }
+      #results .priority span.prio-3 {
+        border-bottom-color: yellow; 
       }
       #results .negate-tag {
         color: red;
