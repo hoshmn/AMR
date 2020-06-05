@@ -444,7 +444,10 @@
       <h2>Facility-Level Assessment</h2>
       <h3>Recommendations & Resources</h3>
 
-      <h4 class="priority"><span class="prio-1">Priority 1</span></h4>
+
+      <div class="prio-section prio-1">
+
+      <h4 class="priority">Priority 1</h4>
       <div>
         <div class="missed-standard">
           <h5>Missed Standard:</h5>
@@ -465,7 +468,12 @@
         </div>
       </div>
 
-      <h4 class="priority"><span class="prio-2">Priority 2</span></h4>
+      </div>
+
+
+      <div class="prio-section prio-2">
+
+      <h4 class="priority">Priority 2</h4>
       <div>
         <div class="missed-standard">
           <h5>Missed Standard:</h5>
@@ -487,7 +495,12 @@
         </div>
       </div>
 
-      <h4 class="priority"><span class="prio-3">Priority 3</span></h4>
+      </div>
+
+
+      <div class="prio-section prio-3">
+
+      <h4 class="priority">Priority 3</h4>
       <div>
         <div class="missed-standard">
           <h5>Missed Standard:</h5>
@@ -507,6 +520,8 @@
           <h5>Resources:</h5>
           <a href="http://www.pathology.uct.ac.za/sites/default/files/image_tool/images/231/documents/NHLS_Handbook_2015.pdf" target="#">NHLS Laboratory Handbook (South Africa)</a>
         </div>
+      </div>
+
       </div>
 
     </div>
@@ -592,6 +607,21 @@
         display: block;
         padding: 30px;
       }
+
+      #results .prio-section {
+        border: solid 2px;
+        margin-bottom: 20px;
+        padding: 30px;
+      }
+      #results .prio-1 {
+        border-color: red;
+      }
+      #results .prio-2 {
+        border-color: orange;
+      }
+      #results .prio-3 {
+        border-color: gold;
+      }
       #results h3 {
         padding: 30px 0;
       }
@@ -600,18 +630,6 @@
       }
       #results .priority {
         text-align: center;
-      }
-      #results .priority span {
-        border-bottom: solid 5px; 
-      }
-      #results .priority span.prio-1 {
-        border-bottom-color: red; 
-      }
-      #results .priority span.prio-2 {
-        border-bottom-color: orange; 
-      }
-      #results .priority span.prio-3 {
-        border-bottom-color: gold; 
       }
       #results .negate-tag {
         color: red;
@@ -622,7 +640,7 @@
         padding-bottom: 30px;
       }
       #results .text {
-        color: darkblue;
+        color: #19195b;
       }
     </style>
 
